@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidCourseLesson</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wi_fi">WI FI</string>
+    <string name="press">Нажмите</string>
+    <string name="any_text">Введите любой текст</string>
 </resources>
