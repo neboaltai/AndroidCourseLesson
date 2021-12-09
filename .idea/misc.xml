@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/activity_main.xml" value="0.4338768115942029" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/fragment_card_drawl.xml" value="0.19655521783181357" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/fragment_card_draw.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/fragment_card_drawl.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/fragment_description.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/layout/participant_list_item.xml" value="0.19655521783181357" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidCourseLesson/app/src/main/res/menu/bottom_menu.xml" value="0.31851851851851853" />
@@ -16,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

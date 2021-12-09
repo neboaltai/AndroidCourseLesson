@@ -13,7 +13,7 @@ class ParticipantAdapter(private val participantsNames: List<String>) :
     }
 
     override fun onBindViewHolder(holder: ParticipantViewHolder, position: Int) {
-        val name=participantsNames[position]
+        val name = participantsNames[position]
         holder.bind(name)
     }
 

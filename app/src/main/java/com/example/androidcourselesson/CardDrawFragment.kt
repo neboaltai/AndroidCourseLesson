@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-import kotlin.random.Random
 
 private const val LAST_ROLLED_IMAGE = "image"
 
@@ -16,7 +15,7 @@ class CardDrawFragment : Fragment() {
     lateinit var cardImageView: ImageView
     lateinit var drawButton: Button
 
-    private val cardImageList : List<Int> = listOf(
+    private val cardImageList: List<Int> = listOf(
         R.drawable.jack_clubs,
         R.drawable.jack_diamonds,
         R.drawable.jack_hearts,
@@ -31,23 +30,23 @@ class CardDrawFragment : Fragment() {
         R.drawable.queen_spades
     )
 
-    var lastDrawnImageRes=0
+    var lastDrawnImageRes = 0
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_card_drawl, container, false)
+        val view = inflater.inflate(R.layout.fragment_card_draw, container, false)
 
         cardImageView = view.findViewById(R.id.card_image_view)
         drawButton = view.findViewById(R.id.draw_button)
 
-        if(savedInstanceState!=null)
+        if (savedInstanceState != null)
             cardImageView.setImageResource(savedInstanceState.getInt(LAST_ROLLED_IMAGE))
 
         drawButton.setOnClickListener {
-            lastDrawnImageRes=cardImageList.random()
+            lastDrawnImageRes = cardImageList.random()
             cardImageView.setImageResource(lastDrawnImageRes)
         }
         return view
