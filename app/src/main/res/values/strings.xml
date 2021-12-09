@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidCourseLesson</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="draw">Draw</string>
+    <string name="participants">Participants:</string>
+    <string name="card_draw">Card draw</string>
+    <string name="description">Description</string>
+    <string name="just_see_wikipedia">Just see wikipedia</string>
 </resources>
